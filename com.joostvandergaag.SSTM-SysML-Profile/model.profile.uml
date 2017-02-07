@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zZAzgO0TEeak1PIvYpd9hA" name="SSTM" metaclassReference="_wD7cIO0VEeak1PIvYpd9hA">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Jz2Ue0TEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_m27ZsO0YEeak1PIvYpd9hA" name="SSTM" nsURI="http:///schemas/SSTM/_m2ps4O0YEeak1PIvYpd9hA/1" nsPrefix="SSTM">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zse0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m29O4O0YEeak1PIvYpd9hA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m29O4e0YEeak1PIvYpd9hA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m29O4u0YEeak1PIvYpd9hA" key="Comment" value="-Added OOSEM stereotypes"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m29O4-0YEeak1PIvYpd9hA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m29O5O0YEeak1PIvYpd9hA" key="Date" value="2017-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m29O5e0YEeak1PIvYpd9hA" key="Author" value="JT van der Gaag"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zsu0YEeak1PIvYpd9hA" name="systemofinterest">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zs-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vqQtAO0XEeak1PIvYpd9hA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m27ZtO0YEeak1PIvYpd9hA" key="originalName" value="system of interest"/>
+        </eAnnotations>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zt-0YEeak1PIvYpd9hA" name="testcomponent">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27ZuO0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xOWV8O0XEeak1PIvYpd9hA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m27Zue0YEeak1PIvYpd9hA" key="originalName" value="test component"/>
+        </eAnnotations>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_m27ZvO0YEeak1PIvYpd9hA" name="OOSEM" nsURI="http:///SSTM/OOSEM.ecore" nsPrefix="SSTM.OOSEM">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zve0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_0clB8O0WEeak1PIvYpd9hA"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zvu0YEeak1PIvYpd9hA" name="configurationitem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zv-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4d1tYO0VEeak1PIvYpd9hA">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m27ZwO0YEeak1PIvYpd9hA" key="originalName" value="configuration item"/>
+          </eAnnotations>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zw-0YEeak1PIvYpd9hA" name="data">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27ZxO0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_EbCfMO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zx-0YEeak1PIvYpd9hA" name="document">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27ZyO0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IFSjYO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zyu0YEeak1PIvYpd9hA" name="file">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zy-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PrUgoO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Zzu0YEeak1PIvYpd9hA" name="hardware">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Zz-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QcjwUO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z0u0YEeak1PIvYpd9hA" name="logical">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z0-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RsfHIO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z1u0YEeak1PIvYpd9hA" name="mop" eSuperTypes="_m27Z2e0YEeak1PIvYpd9hA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z1-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_SoVEUO0WEeak1PIvYpd9hA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z2e0YEeak1PIvYpd9hA" name="moe">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z2u0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_TWyFwO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z3O0YEeak1PIvYpd9hA" name="nodephysical">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z3e0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_bVXF4O0WEeak1PIvYpd9hA">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m27Z3u0YEeak1PIvYpd9hA" key="originalName" value="node physical"/>
+          </eAnnotations>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z4e0YEeak1PIvYpd9hA" name="nodelogical">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z4u0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_c8olsO0WEeak1PIvYpd9hA">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m27Z4-0YEeak1PIvYpd9hA" key="originalName" value="node logical"/>
+          </eAnnotations>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z5u0YEeak1PIvYpd9hA" name="operator">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z5-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_f6dowO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z6u0YEeak1PIvYpd9hA" name="procedure">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z6-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_itjbcO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z7u0YEeak1PIvYpd9hA" name="software">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z7-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kcfCcO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks/Block"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z8u0YEeak1PIvYpd9hA" name="status">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z8-0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_wfW-cO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z9e0YEeak1PIvYpd9hA" name="store">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z9u0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y3HgAO0WEeak1PIvYpd9hA"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_m27Z-O0YEeak1PIvYpd9hA" name="SSTM" nsURI="http:///SSTM/SSTM.ecore" nsPrefix="SSTM.SSTM">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z-e0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_6LRDEO0WEeak1PIvYpd9hA"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_m27Z-u0YEeak1PIvYpd9hA" name="device">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m27Z--0YEeak1PIvYpd9hA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wuyt8O0XEeak1PIvYpd9hA"/>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_7J0dYO0TEeak1PIvYpd9hA" name="SSTM" nsURI="http:///schemas/SSTM/_7Jz2UO0TEeak1PIvYpd9hA/0" nsPrefix="SSTM">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7J0dYe0TEeak1PIvYpd9hA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7J0dYu0TEeak1PIvYpd9hA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7J0dY-0TEeak1PIvYpd9hA" key="Comment" value="SysML to SLIM Transformation Methodology (SSTM) Profile for Papyrus"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7J0dZO0TEeak1PIvYpd9hA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7J0dZe0TEeak1PIvYpd9hA" key="Date" value="2017-02-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7J0dZu0TEeak1PIvYpd9hA" key="Author" value="JT van der Gaag"/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_wD7cIO0VEeak1PIvYpd9hA" alias="Property">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXK8O0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyAO0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyAe0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyAu0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyA-0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyBO0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyBe0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xXyBu0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1xYZEO0TEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hMcDcO0VEeak1PIvYpd9hA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0clB8O0WEeak1PIvYpd9hA" name="OOSEM">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_4d1tYO0VEeak1PIvYpd9hA" name="configuration item">
+      <generalization xmi:type="uml:Generalization" xmi:id="_85KXQO0XEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="__wM10O0XEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_EbCfMO0WEeak1PIvYpd9hA" name="data">
+      <generalization xmi:type="uml:Generalization" xmi:id="__BpGsO0XEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="__WyQQO0XEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_IFSjYO0WEeak1PIvYpd9hA" name="document">
+      <generalization xmi:type="uml:Generalization" xmi:id="_AuMvIO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_PrUgoO0WEeak1PIvYpd9hA" name="file">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Bm-xQO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_CCNUsO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_QcjwUO0WEeak1PIvYpd9hA" name="hardware">
+      <generalization xmi:type="uml:Generalization" xmi:id="_DSa_YO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_Dn11wO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_RsfHIO0WEeak1PIvYpd9hA" name="logical">
+      <generalization xmi:type="uml:Generalization" xmi:id="_EtU3IO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_FELQ4O0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_SoVEUO0WEeak1PIvYpd9hA" name="mop">
+      <generalization xmi:type="uml:Generalization" xmi:id="_LejTUO0YEeak1PIvYpd9hA" general="_TWyFwO0WEeak1PIvYpd9hA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_TWyFwO0WEeak1PIvYpd9hA" name="moe">
+      <generalization xmi:type="uml:Generalization" xmi:id="_LLdYMO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_bVXF4O0WEeak1PIvYpd9hA" name="node physical">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NwReUO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_PAH8oO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_c8olsO0WEeak1PIvYpd9hA" name="node logical">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NdwyAO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_OSNGsO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_f6dowO0WEeak1PIvYpd9hA" name="operator">
+      <generalization xmi:type="uml:Generalization" xmi:id="_a1V3IO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_cFyLUO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_itjbcO0WEeak1PIvYpd9hA" name="procedure">
+      <generalization xmi:type="uml:Generalization" xmi:id="_bMZsQO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_caugkO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_kcfCcO0WEeak1PIvYpd9hA" name="software">
+      <generalization xmi:type="uml:Generalization" xmi:id="_bmQWsO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+      <generalization xmi:type="uml:Generalization" xmi:id="_cwjmoO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_wfW-cO0WEeak1PIvYpd9hA" name="status">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZNKYYO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_y3HgAO0WEeak1PIvYpd9hA" name="store">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZyFqYO0YEeak1PIvYpd9hA">
+        <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </generalization>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6LRDEO0WEeak1PIvYpd9hA" name="SSTM">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Wuyt8O0XEeak1PIvYpd9hA" name="device"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_vqQtAO0XEeak1PIvYpd9hA" name="system of interest">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fsmhAO0YEeak1PIvYpd9hA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <generalization xmi:type="uml:Generalization" xmi:id="_h1eSAO0YEeak1PIvYpd9hA">
+      <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+    </generalization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_xOWV8O0XEeak1PIvYpd9hA" name="test component">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hIVfMO0YEeak1PIvYpd9hA">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+    </generalization>
+    <generalization xmi:type="uml:Generalization" xmi:id="_igTXsO0YEeak1PIvYpd9hA">
+      <general xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+    </generalization>
+  </packagedElement>
+</uml:Profile>
